@@ -1,0 +1,50 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 1rem;
+}
+h1{
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    letter-spacing: .5px;
+}
+
+input,select,textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+button {
+    background: rgb(155,162,177);
+    background: linear-gradient(90deg, rgba(155,162,177,1) 0%, rgba(64,64,109,1) 67%, rgba(17,32,56,1) 93%);
+
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+
+    border: none;
+    border-radius: 5px;
+}
+
+#disabled {
+    text-transform: uppercase;
+    font-weight: bold;
+}
